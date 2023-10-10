@@ -1,0 +1,2 @@
+INSERT INTO `user-info`( `name`, `email`, `password`) VALUES ('AliEmily','pourmohammdi.1383@gmai.com','1383pm')
+INSERT INTO `user-info`( `name`, `email`, `password`) VALUES ('hosein','hamidi@gmai.com','hamidi')
