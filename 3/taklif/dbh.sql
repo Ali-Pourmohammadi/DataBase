@@ -1,7 +1,7 @@
-// update table 
-$update_sql = "UPDATE customers SET is_deleted = true WHERE  id = 1";
-// delete 
-$delete_sql = "DELETE FROM customers WHERE is_deleted = true";
+// select 
+$slecet_all = select *  from products;
+// select
+$select_product = select * from products WHERE  product_id = 2;
 if (mysqli_query($conn, $delete_sql)) {
     echo "Customer record updated successfully";
 } else {
