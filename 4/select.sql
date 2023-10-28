@@ -1,1 +1,2 @@
-SELECT first_Name , Last_Name from employee WHERE id = 3;
+SELECT * from products;
+SELECT * from products WHERE product_id = 2;

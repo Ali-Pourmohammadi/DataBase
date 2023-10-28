@@ -11,12 +11,11 @@ if (!$conn) {
 }
 
 // insert to table
-$insert_message = "INSERT INTO messages (title, body , sender_email) VALUES ('error in connection', 'please help me' , 'rezaPirmoradi@gmail.com')";
+$insert_product = "INSERT INTO products (product-name ,brand , color) VALUES ('xk-4dds', 'volvo' , 'red')";
 // update table 
-$update_sql = "UPDATE customers SET is_deleted = true WHERE  id = 1";
+$update_sql = "UPDATE products SET is_deleted = true WHERE  id = 1";
 // delete 
-$delete_sql = "DELETE FROM customers WHERE is_deleted = true";
-
+$delete_sql = "DELETE FROM products WHERE is_deleted = true";
 if (mysqli_query($conn, $insert_message)) {
     echo "Customer record updated successfully";
 } else {
